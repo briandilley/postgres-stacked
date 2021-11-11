@@ -5,5 +5,5 @@ RUN apt-get update \
         postgresql-12-ip4r \
         postgresql-12-postgis-3 \
         postgresql-12-postgis-3-scripts \
-        postgresql-12-postgis-2.5-dbgsym \
+        postgresql-12-postgis-3-dbgsym \
       && rm -rf /var/lib/apt/lists/*
